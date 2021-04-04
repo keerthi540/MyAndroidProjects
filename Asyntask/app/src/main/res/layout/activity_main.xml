@@ -16,11 +16,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/submit"
+        android:text="Submit"
         android:layout_gravity="center"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        android:visibility="gone"/>
 <ImageView
     android:layout_width="match_parent"
     android:layout_height="200dp"
-    android:id="@+id/imageview"/>
+    android:id="@+id/imageview"
+    android:src="@drawable/androidsym"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
