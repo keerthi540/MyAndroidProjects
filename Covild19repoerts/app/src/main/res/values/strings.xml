@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Covild19repoerts</string>
+    <style name="AppThemes" parent="Theme.AppCompat"/>
+    <item name="colorprimary">@color/design_default_color_primary</item>
+</resources>
