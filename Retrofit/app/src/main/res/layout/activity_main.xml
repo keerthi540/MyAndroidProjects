@@ -7,9 +7,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="covid19 Reports"
+       android:textSize="20sp"
+       android:gravity="center"
+       android:textColor="#2196F3"/>
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/rec"/>
 
-    <TextView
-        android:layout_width="match_parent"
+
+ <!--<TextView
+    android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="covid19 Reports"
         android:textSize="40sp"
@@ -65,5 +77,5 @@
         android:gravity="center"
         android:textColor="#FFEB3B"
         android:id="@+id/tv_confirmed"/>
-
+-->
 </LinearLayout>

@@ -3,6 +3,7 @@ package com.example.retrofit;
 import android.text.Editable;
 
 import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class Retrofitinstance {
@@ -16,7 +17,7 @@ public class Retrofitinstance {
                     .add(ScalarsConverterFactory.create()).build();*/
             retrofit = new Retrofit.Builder()
                     .baseUrl(URL)
-                    .addConverterFactory(ScalarsConverterFactory.create())
+                    .addConverterFactory(GsonConverterFactory.create())
                     .build();
 
         }

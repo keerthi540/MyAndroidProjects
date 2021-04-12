@@ -1,8 +1,14 @@
+
 package com.example.retrofitbook;
 
-import android.telecom.Call;
+        import retrofit2.Call;
+        import retrofit2.http.GET;
 
-public class Endpointinterface {
-    public Call getData() {
+interface Retrofitinterface {
+    static ScalarsConverterFactory getRetrofit() {
+        return null;
     }
+
+    @GET("books/v1/volumes?q=twostates")
+    Call<String> getData() ;
 }
