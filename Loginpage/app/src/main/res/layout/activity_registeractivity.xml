@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registeractivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/un"
+        android:gravity="center"
+        android:textColor="#673AB7"
+        android:textSize="30dp"
+        android:ems="10"
+        android:hint="Enter the username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pwd"
+        android:gravity="center"
+        android:textColor="#673AB7"
+        android:textSize="30dp"
+        android:ems="10"
+        android:hint="Enter the password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cnfpwd"
+        android:gravity="center"
+        android:textColor="#673AB7"
+        android:textSize="30dp"
+        android:ems="10"
+        android:hint="conform password"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/sv"
+        android:onClick="save"
+
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>
