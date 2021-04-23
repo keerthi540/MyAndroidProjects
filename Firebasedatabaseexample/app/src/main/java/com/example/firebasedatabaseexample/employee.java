@@ -6,6 +6,9 @@ public class employee {
     String eid;
     String eSalary;
 
+    public employee() {
+    }
+
     public employee(String ename, String eid, String eSalary) {
         this.ename = ename;
         this.eid = eid;

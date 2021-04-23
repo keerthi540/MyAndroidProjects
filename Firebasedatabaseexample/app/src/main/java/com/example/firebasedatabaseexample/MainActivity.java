@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "please fill the details", Toast.LENGTH_LONG).show();
         } else {
            emp = new employee(ename, eid, esalary);
-            reference.child(ename).push().setValue(emp)
+            reference.push().setValue(emp)
                     .addOnSuccessListener(new OnSuccessListener<Void>() {
                         @Override
                         public void onSuccess(Void aVoid) {
@@ -62,8 +62,8 @@ public class MainActivity extends AppCompatActivity {
                             empSalary.setText("");
 
                             Toast.makeText(MainActivity.this, "saved successfully", Toast.LENGTH_LONG).show();
-                            //Intent intent = new Intent(getApplicationContext(), Loginactivity.class);
-                            //startActivity(intent);
+                            Intent intent = new Intent(getApplicationContext(), Loginactivity.class);
+                            startActivity(intent);
                         }
                     });
             // reference.setValue(ename);
@@ -76,16 +76,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void retrivedatatofirebasee(View view) {
+        list=new ArrayList<>();
 
-        reference.addValueEventListener(new ValueEventListener() {
+        reference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                list = new ArrayList<>();
-                list.add(emp);
-                adapter = new EmplyoyeeAdapter(MainActivity.this, list);
-                recycle.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-                recycle.setAdapter(adapter);
+                for (DataSnapshot ds:snapshot.getChildren()){
+                    employee emp=ds.getValue(employee.class);
+                    list.add(emp);
+                }
 
+                adapter = new EmplyoyeeAdapter(MainActivity.this, list);
+                recycle.setAdapter(adapter);
+                recycle.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
+
+                Toast.makeText(MainActivity.this, ""+list.size(),Toast.LENGTH_SHORT).show();
             }
 
             @Override
