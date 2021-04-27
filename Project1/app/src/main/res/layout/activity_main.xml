@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Home Page"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:gravity="center"
+         />
+
+    <Button
+        android:id="@+id/userlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/design_default_color_primary"
+        android:onClick="Userlogin"
+        android:text="Login as User"
+        android:textSize="10dp"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/editText4"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+    <Button
+        android:id="@+id/workerlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/design_default_color_primary"
+        android:onClick="Workerlogin"
+        android:text="Login as worker"
+        android:textSize="10dp"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/editText4"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+    <Button
+        android:id="@+id/userregistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/design_default_color_primary"
+        android:onClick="Userregister"
+        android:text="Register as User"
+        android:textSize="10dp"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/editText4"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+    <Button
+        android:id="@+id/workerregistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="36dp"
+        android:background="#2196F3"
+        android:onClick="Workerregister"
+        android:text="Register as Worker"
+        android:textSize="10dp"
+        android:textColor="#fff"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Registration"
+        android:textSize="40dp"
+        android:textColor="#000"
+        android:gravity="center"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Name"
+    android:id="@+id/name"
+    android:textSize="30dp"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:textColor="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:id="@+id/mbl"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-Mail Id"
+        android:id="@+id/email"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/pwd"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:id="@+id/cfpwd"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#000"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Register"
+        android:textSize="40dp"
+        android:onClick="rigister"
+        android:gravity="center"
+        android:layout_marginLeft="100dp"
+        />
+</LinearLayout>
