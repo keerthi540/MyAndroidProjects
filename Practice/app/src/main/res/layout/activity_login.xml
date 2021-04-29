@@ -77,6 +77,8 @@
             android:backgroundTint="#4CAF50"
             android:gravity="center"
             android:layout_marginLeft="100dp"
-            android:onClick="Signin"/>
+            android:onClick="Signin"
+            android:layout_marginTop="10dp"
+            />
     </LinearLayout>
 </LinearLayout>
