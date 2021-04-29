@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-<<<<<<< HEAD
 
     <item
-        android:title="Bookings"
-=======
+        android:title="Bookings"/>
+
     <item
         android:title="Home"
         android:id="@+id/w_home"/>
     <item
         android:title="Category"
->>>>>>> bfe1c7569df42b4405c7189d158419827b742432
         android:id="@+id/w_category"/>
     <item
         android:title="Profile"

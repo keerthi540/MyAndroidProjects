@@ -1,9 +1,8 @@
 plugins {
     id 'com.android.application'
-<<<<<<< HEAD
+
     id 'com.google.gms.google-services'
-=======
->>>>>>> bfe1c7569df42b4405c7189d158419827b742432
+
 }
 
 android {
@@ -37,11 +36,10 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.3.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-<<<<<<< HEAD
+
     implementation 'com.google.firebase:firebase-auth:20.0.4'
     implementation 'com.google.firebase:firebase-core:16.0.4'
-=======
->>>>>>> bfe1c7569df42b4405c7189d158419827b742432
+
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'

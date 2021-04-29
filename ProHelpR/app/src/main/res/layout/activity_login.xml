@@ -15,21 +15,12 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-<<<<<<< HEAD
             android:background="#995DA3"
             android:fontFamily="sans-serif-condensed-medium"
             android:gravity="center"
             android:text="ProHelpR   Login"
             android:textColor="#F8F3F3"
             android:textSize="40sp" />
-=======
-            android:background="#03A9F4"
-            android:fontFamily="serif"
-            android:gravity="center"
-            android:text="P r o H e l p R   Login"
-            android:textColor="#FFFFFF"
-            android:textSize="30sp" />
->>>>>>> bfe1c7569df42b4405c7189d158419827b742432
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -71,23 +62,16 @@
             android:orientation="vertical"
             android:layout_marginTop="20dp"
             android:padding="5dp"
-<<<<<<< HEAD
             android:visibility="gone"
             android:backgroundTint="@color/black">
-=======
-            android:visibility="gone">
->>>>>>> bfe1c7569df42b4405c7189d158419827b742432
+
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15sp"
                 android:background="@android:color/white"
-<<<<<<< HEAD
-                app:errorTextColor="#000"
-=======
->>>>>>> bfe1c7569df42b4405c7189d158419827b742432
-                android:hint="Enter Worker Mail Id">
+                app:errorTextColor="#000">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/worker_mail"
@@ -123,13 +107,8 @@
                 android:onClick="workerLogin"
                 android:textSize="17sp"
                 android:textStyle="bold"
-<<<<<<< HEAD
                 app:backgroundTint="#8BC34A"
                 android:textColor="@color/black"
-=======
-                app:backgroundTint="#04950A"
-                android:textColor="@color/white"
->>>>>>> bfe1c7569df42b4405c7189d158419827b742432
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 />
         </LinearLayout>

@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.prohelpr">
-<<<<<<< HEAD
 <uses-permission android:name="android.permission.INTERNET"/>
-=======
 
->>>>>>> bfe1c7569df42b4405c7189d158419827b742432
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProHelpR">
-<<<<<<< HEAD
+
         <activity android:name=".auth.MainActivity">
 
         </activity>
@@ -22,9 +19,6 @@
 
         </activity>
         <activity android:name=".users.UsersHome" />
-=======
-        <activity android:name=".users.UsersHome"></activity>
->>>>>>> bfe1c7569df42b4405c7189d158419827b742432
         <activity android:name=".workers.WorkerHome" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".SplashActivity">
