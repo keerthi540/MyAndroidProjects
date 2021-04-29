@@ -154,6 +154,7 @@
                     android:layout_marginTop="5dp"
                     android:singleLine="true" />
             </com.google.android.material.textfield.TextInputLayout>
+<<<<<<< HEAD
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
@@ -169,6 +170,9 @@
                     android:layout_marginTop="5dp"
                     android:singleLine="true" />
             </com.google.android.material.textfield.TextInputLayout>
+=======
+
+>>>>>>> bfe1c7569df42b4405c7189d158419827b742432
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/save_worker"
                 android:layout_width="match_parent"

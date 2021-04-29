@@ -5,7 +5,11 @@
         android:title="Home"
         android:id="@+id/w_home"/>
     <item
+<<<<<<< HEAD
         android:title="Bookings"
+=======
+        android:title="Category"
+>>>>>>> bfe1c7569df42b4405c7189d158419827b742432
         android:id="@+id/w_category"/>
     <item
         android:title="Profile"
